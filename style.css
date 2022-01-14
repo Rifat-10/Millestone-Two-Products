@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: rgba(252, 246, 246, 0.15);
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+}
+header nav{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+nav li{
+    list-style: none;
+    margin-right: 35px;
+    
+    
+}
+.icon{
+    margin: 10px;
+    margin-right: 15px;
+    justify-items: center;
+}
