@@ -78,3 +78,94 @@ nav li:hover{
     width: 440px;
     height: 414px;
 }
+
+hr{
+    width: 1107px;
+    margin-left:  165px;
+    margin-top: 50px;
+    border: 1px solid #D1D1D1;
+}
+
+/* Advertisement part */
+
+.advertisement{
+    margin-left: 195px;
+}
+.advertisement img{
+    padding-right: 61px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.container-three h3{
+    font-size:28px;
+     margin-left: 37%;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.product{
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(250, 68, 68);
+    height: 480px;
+    width: 300px;
+    margin: 30px;
+}
+
+.product-banner img{
+    width: 300px;
+    height: 256px;
+    margin-bottom: 16px;
+    justify-content: center;
+}
+
+.product-info h3{
+    margin-top: -10px;
+    margin-left: 0px;
+    color: #18191F;
+    margin-bottom: 6px;
+    font-size: 28px;
+}
+.product-info p{
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.star,p{
+    margin-right: 11px;
+}
+.star-yellow{
+    color: #FFC014;
+}
+.star-gray{
+    color:  #AEAEAE;
+    margin-left: 3.24px;
+    margin-right: 10.71px;
+}
+.product-explain p{
+    margin-top: 0;
+    font-size: 14px;
+}
+.see-button{
+    margin-top: 250px;
+    margin-left: 78%;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: #E02C6D;
+   border: 0;
+}
