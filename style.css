@@ -5,6 +5,9 @@ body{
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
 }
+
+/* ..................Navication Part............. */
+
 header nav{
     display: flex;
     margin-top: 10px;
@@ -38,7 +41,7 @@ nav li:hover{
     justify-items: center;
 }
 
-/* Body part */
+               /* Heading Part */
 
 .head{
     display: flex;
@@ -99,7 +102,7 @@ hr{
     border: 1px solid #D1D1D1;
 }
 
-/* Advertisement part */
+            /* .............Advertisement part................ */
 
 .advertisement{
     margin-left: 195px;
@@ -110,6 +113,9 @@ hr{
     margin-top: 50px;
     margin-bottom: 10px;
 }
+
+
+                    /* ................Product Collection................. */
 
 .container-three h3{
     font-size:28px;
@@ -187,6 +193,8 @@ hr{
    border: 0;
 }
 
+
+                      /* .................My Part................ */
 .container-four h3{
     margin-top: 5%;
     font-size:28px;
@@ -271,6 +279,8 @@ hr{
     box-shadow: 0 5px 0 #a5075e;
 }
 
+
+                               /* .................Footer................. */
 footer{
     margin-top: 40px;
     margin-bottom: 0;
@@ -301,11 +311,10 @@ footer .social{
     padding-right: 10px;
 }
 
-/* ---------------------
-    Media Queries 
------------------------*/
+                        /* --------------------- Media Queries -----------------------*/
+                        
 
-/* Mobile Devices */
+                                  /*......... Mobile Devices........... */
 
 @media (max-width: 700px) {
     header nav {
@@ -340,7 +349,7 @@ footer .social{
     }
     .advertisement{
         flex-wrap: wrap;
-        
+
         
     }
     .special{
