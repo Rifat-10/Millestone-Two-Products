@@ -72,6 +72,9 @@ nav li:hover{
     margin-left: 120px;
     margin-right: 133px;
 }
+.fa-arrow-right{
+    margin-left: 5px;
+}
 
 
 .container-one .image img{
@@ -108,21 +111,21 @@ hr{
 
 .container-three h3{
     font-size:28px;
-     margin-left: 37%;
+     margin-left: 40%;
 }
 
 .collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
-    
+    background-color: rgb(245, 243, 241);
     margin-left: 130px;
     margin-right: 130px;
 }
 .product{
     padding: 10px 10px;
     border-radius: 10px;
-    background-color: rgb(250, 68, 68);
+    background-color: rgb(255, 255, 255);
     height: 480px;
     width: 300px;
     margin: 30px;
@@ -179,6 +182,88 @@ hr{
    border: 0;
 }
 
+.container-four h3{
+    margin-top: 5%;
+    font-size:28px;
+    margin-left: 40%;
+}
+
+.special{
+    display: flex;
+}
+
+.my-make {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.frame {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.bike img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bike-detail {
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 0;
+}
+
+.bike-detail h4 {
+    margin-top: 10px;
+    background-color: rgba(243, 223, 168, 0.564);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.bike-detail p {
+    margin-left: 15px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.frame:hover .bike-detail {
+    display: block;
+    background-color: rgba(27, 23, 13, 0.7);
+   
+}
+
+.frame:hover .bike {
+    transform: scale(1.5) skew(-30deg);
+    transition: transform 2s ease-in-out;
+}
+.about-bike{
+    margin-top: 25px;
+}
+.see-button2{
+    
+    
+    text-decoration: none;
+    padding: 10px ;
+    color: #E02C6D;
+   border: 0;
+}
+
+.button3{
+    position: relative;
+    border: 0;
+    padding: 10px 20px;
+    background-image: linear-gradient(90deg, #c21273,#FF008E);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 #a5075e;
+}
 
 footer{
     margin-top: 40px;
