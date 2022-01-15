@@ -79,6 +79,15 @@ nav li:hover{
     height: 414px;
 }
 
+.image img:hover {
+    
+    
+    transform:translate(500px, -20px);
+    transform: rotate(-60deg);
+    transform-origin: top right;
+    
+  }
+
 hr{
     width: 1107px;
     margin-left:  165px;
@@ -168,4 +177,32 @@ hr{
     padding: 10px 40px;
     color: #E02C6D;
    border: 0;
+}
+
+
+footer{
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: -10px;
+    margin-right: 0;
+    width: 101.2%;
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+footer h1{
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .social{
+    font-size: 30px;
+    
+}
+.social a{
+    color: white;
+    padding-right: 10px;
 }
