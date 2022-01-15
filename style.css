@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:wght@500&display=swap');
 
 body{
-    background-color: rgba(252, 246, 246, 0.15);
+    background-color:whitesmoke;
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -40,12 +40,13 @@ nav li:hover{
 
 /* Body part */
 
-.container-one{
+.head{
     display: flex;
     margin: 10px 20px;
    
 
 }
+
 .text h1{
     font-size: 52px;
     font-weight: 700;
@@ -102,6 +103,7 @@ hr{
 
 .advertisement{
     margin-left: 195px;
+    display: flex;
 }
 .advertisement img{
     padding-right: 61px;
@@ -118,17 +120,19 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
-    background-color: rgb(245, 243, 241);
+    grid-gap: 2em;
     margin-left: 130px;
-    margin-right: 130px;
+    margin-right: 138px;
 }
 .product{
     padding: 10px 10px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     height: 480px;
     width: 300px;
     margin: 30px;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px lavender;
 }
 
 .product-banner img{
@@ -162,20 +166,21 @@ hr{
     margin-right: 11px;
 }
 .star-yellow{
-    color: #FFC014;
+    color: #FB8200;
 }
-.star-gray{
-    color:  #AEAEAE;
+.star-half{
+    color:  #FB8200;
     margin-left: 3.24px;
     margin-right: 10.71px;
 }
 .product-explain p{
     margin-top: 0;
     font-size: 14px;
+    color: #787885;
 }
 .see-button{
-    margin-top: 250px;
-    margin-left: 78%;
+    margin-top: 10px;
+    margin-left: 75%;
     text-decoration: none;
     padding: 10px 40px;
     color: #E02C6D;
@@ -204,12 +209,13 @@ hr{
     border-radius: 10px;
     position: relative;
     margin: 15px;
+    margin-left: 30px;
     overflow: hidden;
 }
 
 .bike img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .bike-detail {
@@ -283,11 +289,149 @@ footer h1{
     font-family: 'Poppins', sans-serif;
 }
 
+footer p{
+    color: #D9DBE1;
+}
 footer .social{
     font-size: 30px;
     
 }
 .social a{
-    color: white;
+    color: #D9DBE1;
     padding-right: 10px;
+}
+
+/* ---------------------
+    Media Queries 
+-----------------------*/
+
+/* Mobile Devices */
+
+@media (max-width: 700px) {
+    header nav {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -110px;
+        margin-right: 0;
+        font-size: 11px;
+    }
+
+    body{
+        width: 100%;
+    }
+    .head{
+        
+        flex-wrap: wrap;
+        margin-left: -10px;
+    }
+
+     .collection{
+         margin-left: 40px;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .container-three .popular{
+        margin-left:90px;
+       
+    }
+    .container-three a{
+        margin-left: 180px;
+        margin-bottom: 20px;
+    }
+    .advertisement{
+        flex-wrap: wrap;
+        
+        
+    }
+    .special{
+        flex-wrap: wrap;
+    }
+
+    hr{
+        width: 150px;
+    }
+
+    .about-bike{
+        margin-left: 70px;
+    }
+
+    footer{
+        width: 100%;
+        margin-left: 30px;
+    }
+
+   
+}
+
+@media (min-width:700px) and (max-width:900px) {
+
+    header nav {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    body{
+        width: 100%;
+    }
+    .head{
+        
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container-three .popular{
+        margin-left:260px;
+       
+    }
+
+     .collection{
+         margin-left: -25px;
+         padding: 10px 4px;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .container-three a{
+        margin-left: 180px;
+        margin-bottom: 20px;
+    }
+    hr{
+        width: 500px;
+    }
+    .container-three .see-button{
+        margin-left: 260px;
+        margin-top: -550px;
+        border:magenta;
+        border-radius: 20px;
+    }
+    .advertisement{
+        flex-wrap: wrap;
+        
+    }
+    .special{
+        flex-wrap: wrap;
+    }
+
+    .my-make{
+        margin-left: 240px;
+    }
+    
+    .about-bike{
+        margin-left: 70px;
+    }
+
+    footer{
+        width: 110%;
+        justify-content: center;
+    }
+
+   
+}
+ 
+
+@media (min-width: 900px) {
+    body {
+        grid-template-columns: repeat( 1fr);
+    }
 }
